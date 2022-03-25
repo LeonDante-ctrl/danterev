@@ -34,6 +34,8 @@
             <a href="{% url 'main:home' %}" class="btn btn-success">All Projects</a>
             <a href="{% url 'main:edit_project' project.id %}" class="btn btn-warning">Edit Project</a>
             <a href="{% url 'main:deleteproject' project.id %}" class="btn btn-danger">Delete Project</a>
+                {%endif%}
+          </div>
     
                 </div>
             </div>
